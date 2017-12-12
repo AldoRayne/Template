@@ -1,0 +1,73 @@
+.features-list {
+  margin-top: 100px;
+
+  &-item {
+    position: relative;
+    width: 296px;
+    margin-bottom: 148px;
+    text-align: center;
+  }
+
+  &-title {
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+}
+
+.pen:before {
+    position: absolute;
+    content: url("../images/pen.png");
+    width: 60px;
+    height: 60px;
+    top: -94px;
+    left: calc(50% - 30px);
+}
+
+.monitor:before {
+  position: absolute;
+  content: url("../images/monitor.png");
+  width: 73px;
+  height: 60px;
+  top: -94px;
+  left: calc(50% - 36.5px);
+}
+
+.bulb:before {
+  position: absolute;
+  content: url("../images/bulb.png");
+  width: 41px;
+  height: 60px;
+  top: -94px;
+  left: calc(50% - 20.5px);
+}
+
+.atom:before {
+  position: absolute;
+  content: url("../images/atom.png");
+  width: 56px;
+  height: 60px;
+  top: -94px;
+  left: calc(50% - 28px);
+}
+
+.beg:before {
+  position: absolute;
+  content: url("../images/beg.png");
+  width: 72px;
+  height: 60px;
+  top: -94px;
+  left: calc(50% - 36px);
+}
+
+.cloud:before {
+  position: absolute;
+  content: url("../images/cloud.png");
+  width: 79px;
+  height: 60px;
+  top: -94px;
+  left: calc(50% - 39.5px);
+}

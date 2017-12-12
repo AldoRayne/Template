@@ -1,10 +1,12 @@
 .welcome-section {
+  padding-bottom: 100px;
 
   span {
     display: block;
   }
 
   h1 {
+    color: #ffffff;
     margin-top: 156px;
     font-family: "Open Sans";
     font-size: 65px;
@@ -37,8 +39,9 @@
   }
 
   p {
+    color: #ffffff;
     width: 912px;
-    margin-top: 41px;
+    margin: 41px 0 77px 0;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 400;

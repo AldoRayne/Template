@@ -1,5 +1,21 @@
 @import "compass/reset";
 
-@import "bootstrap/navbar";
+//active
+@import "active/app-button";
 
+
+//bootstrap
+@import "bootstrap/navbar";
+@import "bootstrap/container-fluid";
+
+//content
+@import "content/app-features-list";
+@import "content/app-projects-list";
+
+//sections
+@import "sections/app-big-section-padding";
 @import "sections/app-welcome-section";
+
+
+//other
+@import "app-layer";
