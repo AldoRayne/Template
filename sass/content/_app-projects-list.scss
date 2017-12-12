@@ -1,5 +1,25 @@
 .projects-list {
-  img {
-    flex-basis: 25%;
+  li {
+
+    @media screen and (min-device-width: 1400px) {
+      flex-basis: 25%;
+    }
+
+    @media screen and (device-width: 1024px) {
+      flex-basis: 25%;
+    }
+
+    @media screen and (device-width: 768px) {
+      flex-basis: 50%;
+    }
+
+    @media screen and (device-width: 568px) {
+      flex-basis: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
