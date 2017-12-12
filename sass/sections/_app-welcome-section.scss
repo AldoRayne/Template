@@ -1,0 +1,63 @@
+.welcome-section {
+
+  span {
+    display: block;
+  }
+
+  h1 {
+    margin-top: 156px;
+    font-family: "Open Sans";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 71px;
+    text-transform: uppercase;
+
+    @media screen and (min-device-width: 1400px) {
+      margin-top: 156px;
+      width: 912px;
+    }
+
+    @media screen and (device-width: 1024px) {
+      margin-top: 40px;
+      font-size: 50px;
+      width: 700px;
+    }
+
+    @media screen and (device-width: 768px) {
+      margin-top: 50px;
+      font-size: 40px;
+      width: 600px;
+    }
+
+    @media screen and (device-width: 568px) {
+      margin-top: 50px;
+      font-size: 26px;
+      width: 450px;
+    }
+  }
+
+  p {
+    width: 912px;
+    margin-top: 41px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+
+    @media screen and (min-device-width: 1400px) {
+      width: 912px;
+    }
+
+    @media screen and (device-width: 1024px) {
+      width: 700px;
+    }
+
+    @media screen and (device-width: 768px) {
+      width: 600px;
+    }
+
+    @media screen and (device-width: 568px) {
+      width: 450px;
+    }
+  }
+}
