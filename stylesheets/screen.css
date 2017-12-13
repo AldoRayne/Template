@@ -113,13 +113,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 8.5px);
 }
 
+/* line 1, ../sass/animation/_app-nav-fixed.scss */
+.fixed {
+  background-color: #3a3e64 !important;
+  position: fixed;
+  z-index: 1;
+}
+
 /* line 1, ../sass/bootstrap/container-fluid.scss */
 .container-fluid {
   position: relative;
+  padding: 0;
 }
 
 /* line 1, ../sass/bootstrap/col.scss */
-.col-6 {
+.col-xl-6, .col-lg-6, .col-md-6, .col-sm-12 {
   padding: 0 !important;
 }
 
@@ -422,7 +430,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   height: 100%;
 }
-/* line 13, ../sass/sections/_app-quote-section.scss */
+/* line 12, ../sass/sections/_app-quote-section.scss */
 .quote-section-right {
   background-color: #53354a;
 }
@@ -456,6 +464,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #3a3e64;
 }
 /* line 5, ../sass/sections/_app-site-footer.scss */
+.footer li {
+  margin-bottom: 35px;
+}
+/* line 9, ../sass/sections/_app-site-footer.scss */
 .footer-title {
   margin-bottom: 22px;
   color: #ffffff;
@@ -464,7 +476,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 14, ../sass/sections/_app-site-footer.scss */
+/* line 18, ../sass/sections/_app-site-footer.scss */
 .footer-text {
   opacity: 0.5;
   color: #ffffff;
@@ -474,12 +486,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 22.5px;
 }
 
-/* line 24, ../sass/sections/_app-site-footer.scss */
+/* line 28, ../sass/sections/_app-site-footer.scss */
 .location p {
   width: 146px;
+  margin-left: calc(50% - 73px);
 }
 
-/* line 34, ../sass/sections/_app-site-footer.scss */
+/* line 33, ../sass/sections/_app-site-footer.scss */
+.share .social-btn-list {
+  margin-left: calc(50% - 64px);
+}
+
+/* line 39, ../sass/sections/_app-site-footer.scss */
 .about h4 {
   margin-bottom: 22px;
   color: #ffffff;
@@ -488,9 +506,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 43, ../sass/sections/_app-site-footer.scss */
+/* line 48, ../sass/sections/_app-site-footer.scss */
 .about p {
   width: 328px;
+  margin-left: calc(50% - 164px);
 }
 
 /* line 1, ../sass/_app-layer.scss */
