@@ -8,15 +8,18 @@
 //bootstrap
 @import "bootstrap/navbar";
 @import "bootstrap/container-fluid";
+@import "bootstrap/col";
 
 //content
 @import "content/app-features-list";
 @import "content/app-projects-list";
 @import "content/app-mates-list";
+@import "content/app-quote";
 
 //sections
 @import "sections/app-big-section-padding";
 @import "sections/app-welcome-section";
+@import "sections/app-quote-section";
 
 
 //other

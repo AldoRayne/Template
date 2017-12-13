@@ -1,0 +1,17 @@
+.quote-section {
+  height: 500px;
+
+  &-left {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+
+  &-right {
+    background-color: #53354a;
+  }
+}

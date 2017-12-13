@@ -122,6 +122,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
 }
 
+/* line 1, ../sass/bootstrap/col.scss */
+.col-6 {
+  padding: 0 !important;
+}
+
 /* line 1, ../sass/content/_app-features-list.scss */
 .features-list {
   margin-top: 100px;
@@ -235,6 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/content/_app-mates-list.scss */
 .mates {
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -250,21 +256,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     justify-content: center;
   }
 }
-/* line 13, ../sass/content/_app-mates-list.scss */
+/* line 14, ../sass/content/_app-mates-list.scss */
 .mates-item {
+  display: flex;
+  flex-direction: column;
   width: 270px;
   margin-bottom: 40px;
 }
-/* line 18, ../sass/content/_app-mates-list.scss */
+@media screen and (device-width: 1024px) {
+  /* line 14, ../sass/content/_app-mates-list.scss */
+  .mates-item {
+    flex-basis: 50%;
+  }
+}
+/* line 25, ../sass/content/_app-mates-list.scss */
 .mates-title {
+  width: 270px;
   margin-top: 30px;
   color: #2d3033;
   font-family: Raleway;
   font-size: 22px;
   font-weight: 400;
 }
-/* line 26, ../sass/content/_app-mates-list.scss */
+/* line 34, ../sass/content/_app-mates-list.scss */
 .mates-post {
+  width: 270px;
   margin-top: 11px;
   color: #e84545;
   font-family: Raleway;
@@ -272,14 +288,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 35, ../sass/content/_app-mates-list.scss */
+/* line 44, ../sass/content/_app-mates-list.scss */
 .mates-text {
+  width: 270px;
   margin-top: 30px;
   color: #6c7279;
   font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+@media screen and (device-width: 1024px) {
+  /* line 54, ../sass/content/_app-mates-list.scss */
+  .mates-photo, .mates-title, .mates-post, .mates-text, .mates .social-btn-list {
+    margin-left: calc(50% - 135px);
+  }
 }
 
 /* line 1, ../sass/sections/_app-big-section-padding.scss */
@@ -369,6 +392,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .welcome-section p {
     width: 450px;
   }
+}
+
+/* line 1, ../sass/sections/_app-quote-section.scss */
+.quote-section {
+  height: 500px;
+}
+/* line 4, ../sass/sections/_app-quote-section.scss */
+.quote-section-left {
+  position: relative;
+}
+/* line 7, ../sass/sections/_app-quote-section.scss */
+.quote-section-left img {
+  width: 100%;
+  height: 100%;
+}
+/* line 14, ../sass/sections/_app-quote-section.scss */
+.quote-section-right {
+  background-color: #53354a;
 }
 
 /* line 1, ../sass/_app-layer.scss */
