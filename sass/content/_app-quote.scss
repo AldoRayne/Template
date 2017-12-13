@@ -1,0 +1,21 @@
+.quote {
+  width: 500px;
+  margin: 70px 0 0 85px;
+  color: #ffffff;
+
+  header {
+    margin-bottom: 30px;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 42px;
+  }
+
+  cite {
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+}
