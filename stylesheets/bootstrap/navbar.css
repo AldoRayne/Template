@@ -1,4 +1,8 @@
 /* line 1, ../../sass/bootstrap/navbar.scss */
-.navbar {
-  min-height: 100px;
+.navbar-nav {
+  width: 100% !important;
+}
+/* line 4, ../../sass/bootstrap/navbar.scss */
+.navbar-nav li {
+  margin-left: 40px;
 }
