@@ -3,5 +3,14 @@
 
   li {
     margin-left: 40px;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }

@@ -6,3 +6,12 @@
 .navbar-nav li {
   margin-left: 40px;
 }
+/* line 7, ../../sass/bootstrap/navbar.scss */
+.navbar-nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 11, ../../sass/bootstrap/navbar.scss */
+.navbar-nav li a:hover {
+  text-decoration: none;
+}

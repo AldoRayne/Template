@@ -132,7 +132,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/animation/_app-active-link.scss */
 .active {
-  color: red;
+  color: red !important;
 }
 
 /* line 1, ../sass/bootstrap/navbar.scss */
@@ -142,6 +142,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/bootstrap/navbar.scss */
 .navbar-nav li {
   margin-left: 40px;
+}
+/* line 7, ../sass/bootstrap/navbar.scss */
+.navbar-nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 11, ../sass/bootstrap/navbar.scss */
+.navbar-nav li a:hover {
+  text-decoration: none;
 }
 
 /* line 1, ../sass/bootstrap/container-fluid.scss */
