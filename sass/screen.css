@@ -1,16 +1,21 @@
 /*
 Error: File to import not found or unreadable: compass/reset.
-        on line 1 of screen.scss
+        on line 8 of screen.scss
 
-1: @import "compass/reset";
-2: 
-3: //active
-4: @import "active/app-button";
-5: @import "active/app-social-buttons";
+3: 
+4: //variables
+5: @import "app-variables";
 6: 
+7: //compass/reset
+8: @import "compass/reset";
+9: 
+10: //active
+11: @import "active/app-button";
+12: @import "active/app-social-buttons";
+13: 
 
 Backtrace:
-screen.scss:1
+screen.scss:8
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -53,4 +58,4 @@ C:/Ruby24-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 1 of screen.scss\A \A 1: @import \"compass/reset\";\A 2: \A 3: //active\A 4: @import \"active/app-button\";\A 5: @import \"active/app-social-buttons\";\A 6: "; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 8 of screen.scss\A \A 3: \A 4: //variables\A 5: @import \"app-variables\";\A 6: \A 7: //compass/reset\A 8: @import \"compass/reset\";\A 9: \A 10: //active\A 11: @import \"active/app-button\";\A 12: @import \"active/app-social-buttons\";\A 13: "; }

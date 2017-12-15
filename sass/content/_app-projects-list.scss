@@ -54,7 +54,8 @@
   top: calc(50% - 41px);
 
   h5 {
-    font-family: Raleway;
+    color: #ffffff;
+    font-family: $Raleway;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -63,7 +64,7 @@
   p {
     margin-top: 13px;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: $Raleway;
     font-size: 14px;
     font-weight: 400;
     opacity: 1;

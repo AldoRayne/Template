@@ -3,7 +3,7 @@ const $body = $(window),
     $nav_val = $('.navbar');
 $(document).on('scroll', function () {
     const position = $body.scrollTop();
-    if (position > 50) {
+    if (position > 70) {
         $nav_val.addClass('fixed');
     } else {
         $nav_val.removeClass('fixed');
@@ -16,7 +16,7 @@ $(document).ready(function(){
         event.preventDefault();
         const id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top - 48}, 1200);
+        $('body,html').animate({scrollTop: top - 70}, 1200);
     });
 });
 
@@ -26,7 +26,7 @@ $(document).ready(function() {
         const posDoc = $(this).scrollTop();
 
         $('.main-section').each(function(index, item) {
-            const topHeader = $(this).offset().top - 50;
+            const topHeader = $(this).offset().top - 70;
             const botHeader = topHeader + $(this).height();
 
             if (posDoc > topHeader && posDoc < botHeader) {

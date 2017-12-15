@@ -8,7 +8,7 @@
   h1 {
     color: #ffffff;
     margin-top: 156px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 65px;
     font-weight: 700;
     line-height: 71px;
@@ -42,7 +42,7 @@
     color: #ffffff;
     width: 912px;
     margin: 41px 0 77px 0;
-    font-family: Raleway;
+    font-family: $Raleway;
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;

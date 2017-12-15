@@ -1,9 +1,11 @@
 .download {
   margin-bottom: 100px;
+  height: 410px;
 
   &-title {
+    margin-top: 70px;
     color: #2d3033;
-    font-family: Raleway;
+    font-family: $Raleway;
     font-size: 28px;
     font-weight: 300;
     line-height: 21px;
@@ -12,7 +14,7 @@
   &-text {
     margin: 16px 0 40px 0;
     color: #2d3033;
-    font-family: Raleway;
+    font-family: $Raleway;
     font-size: 13px;
     font-weight: 700;
     line-height: 21px;

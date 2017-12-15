@@ -10,11 +10,19 @@
 
   &-title {
     color: #2d3033;
-    font-family: Raleway;
+    font-family: $Raleway;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 25px;
+  }
+
+  &-text {
+    color: #6c7279;
+    font-family: $Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
   }
 }
 

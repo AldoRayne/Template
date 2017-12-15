@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Raleway:300,400,700");
 /* line 5, C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -70,8 +71,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #e84545;
   color: #ffffff;
   display: block;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
 }
-/* line 9, ../sass/active/_app-button.scss */
+/* line 13, ../sass/active/_app-button.scss */
 .button:hover {
   text-decoration: none;
   color: #ffffff;
@@ -136,21 +142,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/bootstrap/navbar.scss */
+.navbar {
+  padding: 20px 0;
+}
+/* line 4, ../sass/bootstrap/navbar.scss */
 .navbar-nav {
   width: 100% !important;
 }
-/* line 4, ../sass/bootstrap/navbar.scss */
+/* line 7, ../sass/bootstrap/navbar.scss */
 .navbar-nav li {
   margin-left: 40px;
 }
-/* line 7, ../sass/bootstrap/navbar.scss */
+/* line 10, ../sass/bootstrap/navbar.scss */
 .navbar-nav li a {
   text-decoration: none;
+  opacity: 0.75;
   color: #ffffff;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-/* line 11, ../sass/bootstrap/navbar.scss */
+/* line 19, ../sass/bootstrap/navbar.scss */
 .navbar-nav li a:hover {
   text-decoration: none;
+}
+/* line 26, ../sass/bootstrap/navbar.scss */
+.navbar-brand h1 {
+  color: #ffffff;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 /* line 1, ../sass/bootstrap/container-fluid.scss */
@@ -179,14 +203,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 11, ../sass/content/_app-features-list.scss */
 .features-list-title {
   color: #2d3033;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
+/* line 20, ../sass/content/_app-features-list.scss */
+.features-list-text {
+  color: #6c7279;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
 
-/* line 21, ../sass/content/_app-features-list.scss */
+/* line 29, ../sass/content/_app-features-list.scss */
 .pen:before {
   position: absolute;
   content: url("../images/pen.png");
@@ -196,7 +228,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 30px);
 }
 
-/* line 30, ../sass/content/_app-features-list.scss */
+/* line 38, ../sass/content/_app-features-list.scss */
 .monitor:before {
   position: absolute;
   content: url("../images/monitor.png");
@@ -206,7 +238,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 36.5px);
 }
 
-/* line 39, ../sass/content/_app-features-list.scss */
+/* line 47, ../sass/content/_app-features-list.scss */
 .bulb:before {
   position: absolute;
   content: url("../images/bulb.png");
@@ -216,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 20.5px);
 }
 
-/* line 48, ../sass/content/_app-features-list.scss */
+/* line 56, ../sass/content/_app-features-list.scss */
 .atom:before {
   position: absolute;
   content: url("../images/atom.png");
@@ -226,7 +258,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 28px);
 }
 
-/* line 57, ../sass/content/_app-features-list.scss */
+/* line 65, ../sass/content/_app-features-list.scss */
 .beg:before {
   position: absolute;
   content: url("../images/beg.png");
@@ -236,7 +268,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: calc(50% - 36px);
 }
 
-/* line 66, ../sass/content/_app-features-list.scss */
+/* line 74, ../sass/content/_app-features-list.scss */
 .cloud:before {
   position: absolute;
   content: url("../images/cloud.png");
@@ -311,16 +343,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 56, ../sass/content/_app-projects-list.scss */
 .hidden-text h5 {
-  font-family: Raleway;
+  color: #ffffff;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 63, ../sass/content/_app-projects-list.scss */
+/* line 64, ../sass/content/_app-projects-list.scss */
 .hidden-text p {
   margin-top: 13px;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 400;
   opacity: 1;
@@ -362,7 +395,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 270px;
   margin-top: 30px;
   color: #2d3033;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
@@ -371,7 +404,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 270px;
   margin-top: 11px;
   color: #e84545;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -381,7 +414,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 270px;
   margin: 30px 0 31px 0;
   color: #6c7279;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -402,18 +435,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 6, ../sass/content/_app-quote.scss */
 .quote header {
   margin-bottom: 30px;
-  font-family: Cardo;
+  font-family: "Cardo", "Garamond", "Georgia", "New York", serif;
   font-size: 36px;
   font-style: italic;
   line-height: 42px;
 }
 /* line 14, ../sass/content/_app-quote.scss */
 .quote cite {
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 21px;
   text-transform: uppercase;
+}
+
+/* line 1, ../sass/content/_app-layer.scss */
+.app-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 /* line 1, ../sass/sections/_app-big-section-padding.scss */
@@ -433,7 +473,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .welcome-section h1 {
   color: #ffffff;
   margin-top: 156px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 65px;
   font-weight: 700;
   line-height: 71px;
@@ -475,7 +515,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ffffff;
   width: 912px;
   margin: 41px 0 77px 0;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -522,20 +562,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/sections/_app-download.scss */
 .download {
   margin-bottom: 100px;
+  height: 410px;
 }
-/* line 4, ../sass/sections/_app-download.scss */
+/* line 5, ../sass/sections/_app-download.scss */
 .download-title {
+  margin-top: 70px;
   color: #2d3033;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 28px;
   font-weight: 300;
   line-height: 21px;
 }
-/* line 12, ../sass/sections/_app-download.scss */
+/* line 14, ../sass/sections/_app-download.scss */
 .download-text {
   margin: 16px 0 40px 0;
   color: #2d3033;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 21px;
@@ -555,7 +597,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .footer-title {
   margin-bottom: 22px;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -564,7 +606,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .footer-text {
   opacity: 0.5;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: "Raleway, " "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22.5px;
@@ -585,7 +627,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .about h4 {
   margin-bottom: 22px;
   color: #ffffff;
-  font-family: "Myriad Pro";
+  font-family: "Myriad Pro", serif;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -594,11 +636,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .about p {
   width: 328px;
   margin-left: calc(50% - 164px);
-}
-
-/* line 1, ../sass/_app-layer.scss */
-.app-layer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
 }
