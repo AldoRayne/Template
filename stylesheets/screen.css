@@ -77,8 +77,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #ffffff;
 }
 
-/* line 3, ../sass/active/_app-social-buttons.scss */
-.social-btn-list li {
+/* line 1, ../sass/active/_app-social-buttons.scss */
+.social-holder {
   position: relative;
   border: 1px solid #e8ecee;
   width: 40px;
@@ -86,29 +86,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-right: 4px;
   text-align: center;
 }
-/* line 11, ../sass/active/_app-social-buttons.scss */
-.social-btn-list li a {
+/* line 9, ../sass/active/_app-social-buttons.scss */
+.social-holder:hover {
+  background-color: #e84545;
+}
+/* line 12, ../sass/active/_app-social-buttons.scss */
+.social-holder:hover .fa {
+  color: #ffffff;
+}
+/* line 17, ../sass/active/_app-social-buttons.scss */
+.social-holder a {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* line 19, ../sass/active/_app-social-buttons.scss */
+/* line 24, ../sass/active/_app-social-buttons.scss */
 .fa {
   position: absolute;
   color: #c6cacc;
   font-size: 20px !important;
   top: calc(50% - 10px);
 }
-/* line 25, ../sass/active/_app-social-buttons.scss */
+/* line 30, ../sass/active/_app-social-buttons.scss */
 .fa-facebook {
   left: calc(50% - 5.5px);
 }
-/* line 29, ../sass/active/_app-social-buttons.scss */
+/* line 34, ../sass/active/_app-social-buttons.scss */
 .fa-twitter {
   left: calc(50% - 9.5px);
 }
-/* line 33, ../sass/active/_app-social-buttons.scss */
+/* line 38, ../sass/active/_app-social-buttons.scss */
 .fa-linkedin-square {
   left: calc(50% - 8.5px);
 }
@@ -120,6 +128,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 2;
   width: 100%;
   left: 0;
+}
+
+/* line 1, ../sass/animation/_app-active-link.scss */
+.active {
+  color: red;
 }
 
 /* line 1, ../sass/bootstrap/navbar.scss */
@@ -522,7 +535,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/sections/_app-site-footer.scss */
 .footer {
-  padding: 71px 0 88px 0;
+  padding: 71px 0 0 0;
   background-color: #3a3e64;
 }
 /* line 5, ../sass/sections/_app-site-footer.scss */

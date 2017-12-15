@@ -1,18 +1,23 @@
-.social-btn-list {
+.social-holder {
+  position: relative;
+  border: 1px solid #e8ecee;
+  width: 40px;
+  height: 40px;
+  margin-right: 4px;
+  text-align: center;
 
-  li {
-    position: relative;
-    border: 1px solid #e8ecee;
-    width: 40px;
-    height: 40px;
-    margin-right: 4px;
-    text-align: center;
+  &:hover {
+    background-color: #e84545;
 
-    a {
-      display: block;
-      width: 100%;
-      height: 100%;
+    .fa {
+      color: #ffffff;
     }
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 }
 
