@@ -3,7 +3,7 @@ const $body = $(window),
     $nav_val = $('.navbar');
 $(document).on('scroll', function () {
     const position = $body.scrollTop();
-    if (position > 70) {
+    if (position > 50) {
         $nav_val.addClass('fixed');
     } else {
         $nav_val.removeClass('fixed');
